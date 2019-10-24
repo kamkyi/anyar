@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\API;
 
 use App\User;
+use App\Packs;
 use Validator;
 use Illuminate\Http\Request;
 use Auth;
@@ -69,6 +70,39 @@ class RegisterController extends BaseController
         }else{
             return response()->json(['promo_code'=>'invalid','status'=>false]);
         }
+    }
+
+    // apply Promocode
+    public function applyPromo(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'promocode_status' => 'required',
+            'pack_id' => 'required'
+        ]);
+
+
+        if($validator->fails()){
+            return $this->sendError('Promocode Status Required .', $validator->errors());       
+        }
+        
+        $pack = Packs::find($request->pack_id)->toArray();
+
+        // 7 % of pack price will be GST and DISCOUNT
+        $GST = ($pack['pack_price'] * 0.07);
+        
+        if($request->promocode_status)
+        {
+             $DISCOUNT = ($pack['pack_price'] * 0.07); 
+        }
+
+        $response = [
+            'pack_price' => $pack['pack_price'],
+            'sub_total' => ($pack['pack_price'] - $DISCOUNT),
+            'discount' => "- ".$DISCOUNT,
+            'grand_total' => ($pack['pack_price'] - $DISCOUNT) + $GST
+        ];
+
+        return response()->json($response);
     }
 
 }

@@ -21,4 +21,8 @@ Route::middleware('auth:api')->group( function () {
 	Route::post('getpromocode', 'API\BaseController@getPromoCode');
 	Route::post('checkpromocode','API\RegisterController@checkPromoCode');
 	// promo code session end
+	
+	// order now session
+	Route::post('applypromo','API\RegisterController@applyPromo');
+	// order now session end
 });
