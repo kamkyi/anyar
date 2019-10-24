@@ -1,4 +1,4 @@
-<img src="https://i.ytimg.com/vi/QW4dMbFxv3c/maxresdefault.jpg"></img>
+<img src="https://i.ytimg.com/vi/QW4dMbFxv3c/maxresdefault.jpg" style="height:100px;margin:auto"></img>
 
 <h3> Step to Setup in Loacal environment </h3>
 <h4> This is laravel 5.6 with PHP 7.1.^ </h4>
