@@ -2,6 +2,8 @@
 
 use Illuminate\Database\Seeder;
 
+use App\User;
+
 class UserTableSeeder extends Seeder
 {
     /**
@@ -11,7 +13,18 @@ class UserTableSeeder extends Seeder
      */
     public function run()
     {
+        $users = [
+          [
+            'name' => 'Wai',
+            'email' => 'admin@admin.com',
+            'password' => '$2y$10$TKh8H1.PfQx37YgCzwiKb.KjNyWgaHb9cbcoQgdIVFlYg7B77UdFm',
+          ]
+        ];
+
+        foreach($users as $user){
+             User::create($user);
+        }
         //
-        factory('App\User', 10)->create();
+       // factory(User::class, 10)->create();
     }
 }
