@@ -38,21 +38,21 @@
 	<!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet"> -->
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="{{ asset('shop/css/animate.css') }}">
+	<link rel="stylesheet" href="shop/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="{{ asset('shop/css/icomoon.css') }}">
+	<link rel="stylesheet" href="shop/css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="{{ asset('shop/css/bootstrap.css') }}">
+	<link rel="stylesheet" href="shop/css/bootstrap.css">
 
 	<!-- Flexslider  -->
-	<link rel="stylesheet" href="{{ asset('shop/css/flexslider.css') }}">
+	<link rel="stylesheet" href="shop/css/flexslider.css">
 
 	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="{{ asset('shop/css/owl.carousel.min.css') }}">
-	<link rel="stylesheet" href="{{ asset('shop/css/owl.theme.default.min.css') }}">
+	<link rel="stylesheet" href="shop/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="shop/css/owl.theme.default.min.css">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="{{ asset('shop/css/style.css') }}">
+	<link rel="stylesheet" href="shop/css/style.css">
 
 	<!-- Modernizr JS -->
 	<script src="shop/js/modernizr-2.6.2.min.js"></script>
@@ -520,21 +520,21 @@
 	</div>
 	
 	<!-- jQuery -->
-	<script src="{{ asset('shop/js/jquery.min.js') }}"></script>
+	<script src="shop/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="{{ asset('shop/js/jquery.easing.1.3.js') }}"></script>
+	<script src="shop/js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="{{ asset('shop/js/bootstrap.min.js') }}"></script>
+	<script src="shop/js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-	<script src="{{ asset('shop/js/jquery.waypoints.min.js') }}"></script>
+	<script src="shop/js/jquery.waypoints.min.js"></script>
 	<!-- Carousel -->
-	<script src="{{ asset('shop/js/owl.carousel.min.js') }}"></script>
+	<script src="shop/js/owl.carousel.min.js"></script>
 	<!-- countTo -->
-	<script src="{{ asset('shop/js/jquery.countTo.js') }}"></script>
+	<script src="shop/js/jquery.countTo.js"></script>
 	<!-- Flexslider -->
-	<script src="{{ asset('shop/js/jquery.flexslider-min.js') }}"></script>
+	<script src="shop/js/jquery.flexslider-min.js"></script>
 	<!-- Main -->
-	<script src="{{ asset('shop/js/main.js') }}"></script>
+	<script src="shop/js/main.js"></script>
 
 	</body>
 </html>
