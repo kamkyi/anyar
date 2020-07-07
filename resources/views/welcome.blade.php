@@ -13,10 +13,10 @@
 	//////////////////////////////////////////////////////
 
 	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by anyar.co
+	DESIGNED & DEVELOPED by FreeHTML5.co
 		
-	Website: 		http://anyar.co/
-	Email: 			info@anyar.co
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
 	Twitter: 		http://twitter.com/fh5co
 	Facebook: 		https://www.facebook.com/fh5co
 
@@ -34,8 +34,8 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 
-	<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> -->
-	<!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet"> 
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="shop/css/animate.css">
@@ -75,23 +75,25 @@
 				</div>
 				<div class="col-md-6 col-xs-6 text-center menu-1">
 					<ul>
-						<li class="has-dropdown">
-							<a href="product.html">Shop</a>
-							<ul class="dropdown">
-								<li><a href="single.html">Single Shop</a></li>
-							</ul>
-						</li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
 						<li class="has-dropdown">
 							<a href="services.html">Services</a>
 							<ul class="dropdown">
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">eCommerce</a></li>
-								<li><a href="#">Branding</a></li>
-								<li><a href="#">API</a></li>
+								<li><a href="#">Floral</a></li>
+								<li><a href="#">Thanapkha</a></li>
+								<li><a href="#">Fresh Foods</a></li>
+								<li><a href="#">Fresh Drinks</a></li>
 							</ul>
 						</li>
 						<li><a href="contact.html">Contact</a></li>
+						<li class="has-dropdown">
+							<a href="#">Account</a>
+							<ul class="dropdown">
+								<li><a href="{{ url('/login') }}">Login</a></li>
+								<li><a href="{{ url('/register') }}">Register</a></li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 				<div class="col-md-3 col-xs-4 text-right hidden-xs menu-2">
@@ -498,7 +500,7 @@
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; 2020 Anyar | Corporation . All Rights Reserved.</small> 
-						{{-- <small class="block">Designed by <a href="http://anyar.co/" target="_blank">anyar.co</a> Demo Images: <a href="http://blog.gessato.com/" target="_blank">Gessato</a> &amp; <a href="http://unsplash.co/" target="_blank">Unsplash</a></small> --}}
+						{{-- <small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://blog.gessato.com/" target="_blank">Gessato</a> &amp; <a href="http://unsplash.co/" target="_blank">Unsplash</a></small> --}}
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
