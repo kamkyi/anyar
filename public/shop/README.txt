@@ -3,9 +3,9 @@ TITLE:
 Shop - 100% Fully Responsive Free HTML5 Bootstrap Template
 
 AUTHOR:
-DESIGNED & DEVELOPED by FreeHTML5.co
+DESIGNED & DEVELOPED by anyar.co
 
-Website: http://freehtml5.co/
+Website: http://anyar.co/
 Twitter: http://twitter.com/fh5co
 Facebook: http://facebook.com/fh5co
 
