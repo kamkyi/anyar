@@ -56,7 +56,7 @@
 
 		@include('partials.slider')
 		
-		@yield('products')
+		@include('partials.products')
 
 		@include('partials.feedback')
 
