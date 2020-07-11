@@ -1,11 +1,11 @@
 @extends('backend.layout.register')
 @section('content')
 <div class="register-box">
-    <div class="register-logo">
-      <a href="../../index2.html"><strong>Admin</strong></a>
-    </div>
-  
     <div class="card">
+      <div class="register-logo">
+        <a href="../../index2.html"><strong>Anyar</strong></a>
+      </div>
+    
       <div class="card-body register-card-body">
         <p class="login-box-msg">Register a new membership</p>
   

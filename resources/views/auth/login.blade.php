@@ -61,6 +61,7 @@
         <p class="mb-0">
           <a href="register.html" class="text-center">Register a new membership</a>
         </p> --}}
+          <a href="{{ url('register') }}" class="text-right">Register an account</a>
       </div>
       
       <!-- /.login-card-body -->
