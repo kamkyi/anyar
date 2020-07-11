@@ -34,7 +34,7 @@
       <!-- /.content-header -->
   
       <!-- Main content -->
-      @include('backend.dashboard.index')
+      @include('backend.dashboard.includes.content')
       <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->
