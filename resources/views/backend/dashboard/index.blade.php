@@ -1,5 +1,4 @@
 @extends('layouts.app')
-
 @section('content')
 <div class="wrapper">
     <!-- Navbar -->
@@ -27,16 +26,11 @@
     {{-- side bar --}}
     @include('backend.partials.sidebar')
     
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-      <!-- Content Header (Page header) -->
-       @include('backend.partials.content-header')
-      <!-- /.content-header -->
-  
+    <!-- Content Wrapper. Contains page content -->  
       <!-- Main content -->
       @include('backend.dashboard.includes.content')
-      <!-- /.content -->
-    </div>
+ 
+    {{-- </div> --}}
     <!-- /.content-wrapper -->
     @include('backend.partials.footer')
     <!-- Control Sidebar -->

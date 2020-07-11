@@ -1,4 +1,7 @@
+
 <?php
+
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -11,8 +14,26 @@
 |
 */
 
+
 Route::get('/','Frontend\FrontendController@index');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+/*
+ * Backend Routes
+ * Namespaces indicate folder structure
+ */
+Route::group(['prefix' => 'dashboard', 'as' => 'dashboard.', 'middleware' => 'admin'], function () {
+    /*
+     * These routes need view-backend permission
+     * (good if you want to allow more than one group in the backend,
+     * then limit the backend features by different roles or permissions)
+     *
+     * Note: Administrator has all permissions so you do not have to specify the administrator role everywhere.
+     * These routes can not be hit if the password is expired
+     */
+  //  include_route_files(__DIR__.'/dashboard/');
+});
+
