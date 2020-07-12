@@ -295,7 +295,7 @@ Top navbar example can be found in this [demo page](https://adminlte.io/themes/d
 <nav class="navbar navbar-expand navbar-light navbar-white">
   <div class="container">
     <a href="index3.html" class="navbar-brand">
-      <img src="{{'assets/img/AdminLTELogo.png' | relative_url}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+      <img src="{{'assets/img/anyar.jpg' | relative_url}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
       <span class="brand-text font-weight-light">AdminLTE 3</span>
     </a>
@@ -431,7 +431,7 @@ Top navbar example can be found in this [demo page](https://adminlte.io/themes/d
   <nav class="main-header navbar navbar-expand navbar-light navbar-white">
     <div class="container">
       <a href="index3.html" class="navbar-brand">
-        <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+        <img src="dist/img/anyar.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
              style="opacity: .8">
         <span class="brand-text font-weight-light">AdminLTE 3</span>
       </a>
