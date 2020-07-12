@@ -20,7 +20,7 @@ The layout consists of four major parts:
 > You cannot use both layout-boxed and layout-navbar-fixed or layout-footer-fixed at the same time. Anything else can be mixed together.
 {: .quote-danger}
 
-AdminLTE 3.0 provides a set of options to apply to your main layout. Each one of these classes can be added to the body tag to get the desired goal.
+Anyar.0 provides a set of options to apply to your main layout. Each one of these classes can be added to the body tag to get the desired goal.
 
 
 - Fixed Sidebar: use the class `.layout-fixed` to get a fixed sidebar.
@@ -49,7 +49,7 @@ You can also use the following classes for responsive changes with placing
 
 #### Color Variations
 
-AdminLTE 3.0 provides a set of color variations to apply to your sidebar (light & dark) & navbar. You can combine any available color with these class prefixes:
+Anyar.0 provides a set of color variations to apply to your sidebar (light & dark) & navbar. You can combine any available color with these class prefixes:
 
 - `.navbar-*`
 - `.sidebar-dark-*`

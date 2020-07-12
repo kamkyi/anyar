@@ -97,7 +97,7 @@ reserves the right to change the license of future releases.
 
 Latest Release
 ---------------
-- [AdminLTE 3](https://github.com/ColorlibHQ/AdminLTE/releases/latest)
+- [Anyar](https://github.com/ColorlibHQ/AdminLTE/releases/latest)
 
 Legacy Releases
 ---------------
