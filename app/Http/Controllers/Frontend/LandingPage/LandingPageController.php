@@ -14,7 +14,7 @@ class LandingPageController extends Controller
      */
     public function index()
     {
-        return view('product.index');
+        return view('frontend.landing.index');
     }
 
     /**

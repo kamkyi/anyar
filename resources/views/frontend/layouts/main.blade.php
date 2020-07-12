@@ -46,29 +46,29 @@
 	</head>
 	<body>
 		
-    @include('partials.loader')
+    @include('frontend.partials.loader')
 	
 	<div id="page">
 
-		@include('partials.nav')
+		@include('frontend.partials.nav')
 		
-		@include('partials.aside')
+		@include('frontend.partials.aside')
 
-		@include('partials.slider')
+		@include('frontend.partials.slider')
 		
 		@yield('products')
 
-		@include('partials.feedback')
+		@include('frontend.partials.feedback')
 
-		@include('partials.dashboard')
+		@include('frontend.partials.dashboard')
 
-		@include('partials.subscription')
+		@include('frontend.partials.subscription')
 
-		@include('partials.footer')
+		@include('frontend.partials.footer')
 
 	</div>
 
-	   @include('partials.arrow_up')
+	   @include('frontend.partials.arrow_up')
 	
 		<!-- jQuery -->
 		<script src="shop/js/jquery.min.js"></script>

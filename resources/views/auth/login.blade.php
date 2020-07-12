@@ -1,4 +1,4 @@
-@extends('backend.layout.login')
+@extends('backend.layouts.login')
 @section('content')
 <div class="login-box">
     <!-- /.login-logo -->
@@ -7,7 +7,7 @@
             <a href="../../index2.html"><b>Anyar</b></a>
       </div>
       <div class="card-body login-card-body">
-        <p class="login-box-msg">Sign in to Admin Panel</p>
+        <p class="login-box-msg">Sign in to Access</p>
   
         <form method="POST" action="{{ route('login') }}" aria-label="{{ __('Login') }}">
           @csrf

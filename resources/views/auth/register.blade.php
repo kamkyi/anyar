@@ -1,4 +1,4 @@
-@extends('backend.layout.register')
+@extends('backend.layouts.register')
 @section('content')
 <div class="register-box">
     <div class="card">

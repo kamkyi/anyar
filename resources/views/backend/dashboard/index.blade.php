@@ -1,4 +1,4 @@
-@extends('backend.layout.main')
+@extends('backend.layouts.main')
 @section('content')
 <div class="wrapper">
     <!-- Navbar -->
