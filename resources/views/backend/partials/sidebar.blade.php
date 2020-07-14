@@ -561,7 +561,7 @@
          // logout 
          $('#logout-now').on('click',function(e){
                e.preventDefault();
-               document.getElementById('logout-form').submit();
+               $('#logout-form').submit();
          });
     });
   </script>
