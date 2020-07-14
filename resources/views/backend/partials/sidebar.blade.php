@@ -42,6 +42,24 @@
             </a>
           </li>
           <li class="nav-item">
+            <a href="{{ route('backend.poll.index') }}" class="nav-link {{ active_class(request()->is('poll*')) }}">
+              <i class="nav-icon fas fa-dice"></i>
+              <p>
+                Poll
+                {{-- <span class="right badge badge-danger">New</span> --}}
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="{{ route('backend.cosmetic.index') }}" class="nav-link {{ active_class(request()->is('cosmetic*')) }}">
+              <i class="nav-icon fas fa-bullseye"></i>
+              <p>
+                Cosmetic
+                {{-- <span class="right badge badge-danger">New</span> --}}
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
             <a href="pages/widgets.html" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
