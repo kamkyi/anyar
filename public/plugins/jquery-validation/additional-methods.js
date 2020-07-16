@@ -190,7 +190,7 @@ $.validator.addMethod( "bic", function( value, element ) {
  *
  * [ T ]: Kind of Organizations. Possible values:
  *
- *   A. Corporations
+ *   A. Portals
  *   B. LLCs
  *   C. General partnerships
  *   D. Companies limited partnerships
