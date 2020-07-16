@@ -2,6 +2,8 @@
 
 use Illuminate\Database\Seeder;
 
+use App\Models\Flower\Flower;
+
 class FlowerTableSeeder extends Seeder
 {
     /**
