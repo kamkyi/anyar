@@ -77,7 +77,6 @@
 		<script src="shop/js/jquery.flexslider-min.js"></script>
 		<!-- Main -->
 		<script src="shop/js/main.js"></script>
-
 	</body>
 </html>
 
