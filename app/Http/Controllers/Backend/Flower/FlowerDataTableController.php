@@ -4,17 +4,28 @@ namespace App\Http\Controllers\Backend\Flower;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Repositories\Backend\Flower\FlowerRepository;
 
 class FlowerDataTableController extends Controller
 {
+
+    protected $flowerRepo;
+     /**
+     * FlowerDataTableController constructor
+     *
+     */
+    public function __construct(FlowerRepository $flowerRepo)
+    {
+        $this->flowerRepo = $flowerRepo;
+    }
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function getAll()
     {
-        //
+        return $this->flowerRepo->getAllFlowerDatatable();
     }
 
     /**

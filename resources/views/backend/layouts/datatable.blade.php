@@ -181,14 +181,14 @@
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
 <!-- page script -->
-<script>
+{{-- <script>
   $(function () {
     $("#example1").DataTable({
       "responsive": true,
       "autoWidth": false,
     });
   });
-</script>
+</script> --}}
 
 @stack('after-scripts')
 
