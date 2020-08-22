@@ -172,8 +172,8 @@
                       <input type="text" class="form-control" id="color" placeholder="Color" name="color">
                     </div>
                     <div class="form-group">
-                      <label for="price">Price</label>
-                      <input type="text" class="form-control" id="price" placeholder="Price" name="price">
+                      <label for="price">Price in MMK</label>
+                      <input type="number" class="form-control" id="price" placeholder="Price" name="price">
                     </div>
                   </div>
                   <!-- /.card-body -->

@@ -11,5 +11,5 @@ class Flower extends Model
 
     protected $table = 'flowers';
 
-    protected $fillable = ['name','type','price'];
+    protected $fillable = ['type','price','color'];
 }

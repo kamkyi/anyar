@@ -4,9 +4,17 @@ namespace App\Http\Controllers\Backend\Flower;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Repositories\Backend\Flower\FlowerRepository;
 
 class FlowerController extends Controller
 {
+    /* @var FlowerRepository
+     */
+    protected $flowerRepo;
+
+    public function __construct(FlowerRepository $flowerRepo){
+        $this->flowerRepo = $flowerRepo;
+    }
     /**
      * Display a listing of the resource.
      *
@@ -35,9 +43,9 @@ class FlowerController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->flowerRepo->create($request->only(['price','type','color']));
 
-        dd($request->all());
+        return redirect()->route('backend.flower.index')->withFlashSuccess('Flower successfully created !');
     }
 
     /**

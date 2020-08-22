@@ -2,6 +2,8 @@
 @section('content')
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
+     {{-- messages --}}
+   @include('backend.includes.messages')
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <div class="container-fluid">
@@ -36,7 +38,7 @@
                     <th>Price</th>
                     <th>Created At</th>
                     <th>Modified At</th>
-                    <th>Actions</th>
+                    <th style="text-align: center">Actions</th>
                   </tr>
                   </thead>
                   <tbody>
@@ -59,6 +61,7 @@
     <script type="text/javascript">
       $(function() {
       $('#flower-datatable').DataTable({
+              order:  [0, 'desc'] ,
               responsive: true,
               autoWidth : false,
               processing: true,
