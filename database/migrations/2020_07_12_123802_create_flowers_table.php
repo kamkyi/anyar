@@ -16,6 +16,7 @@ class CreateFlowersTable extends Migration
         Schema::create('flowers', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('type');
+            $table->string('color',90);
             $table->double('price');
             $table->timestamps();
         });

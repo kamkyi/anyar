@@ -13,6 +13,6 @@ class FlowerTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        factory(Flower::class,10)->create();
     }
 }

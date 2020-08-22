@@ -1,4 +1,4 @@
 <?php
-Route::group(['namespace' => 'Flower','as' =>'flower.'], function () {
-    Route::get('/flower/list', 'FlowerController@index')->name('index');
+Route::group(['namespace' => 'Flower'], function () {
+    Route::resource('flower', 'FlowerController');
 });

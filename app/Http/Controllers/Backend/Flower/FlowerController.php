@@ -24,7 +24,7 @@ class FlowerController extends Controller
      */
     public function create()
     {
-        //
+        return view('backend.flower.create');
     }
 
     /**

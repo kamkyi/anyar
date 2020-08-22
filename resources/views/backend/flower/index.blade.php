@@ -11,8 +11,9 @@
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">DataTables</li>
+              <li class="breadcrumb-item"><a href="{{ route('backend.dashboard') }}">Home</a></li>
+              <li class="breadcrumb-item active"><a href="{{ route('backend.flower.index')}}">Flower</a></li>
+              <li class="breadcrumb-item"> <a href="{{ route('backend.flower.create') }}"> Create Flower</a></li>
             </ol>
           </div>
         </div>
@@ -25,12 +26,6 @@
         <div class="row">
           <div class="col-12">
             <div class="card">
-              <div class="card-header">
-                <button type="button" class="btn btn-outline-success">Create</button>
-                <button type="button" class="btn btn-outline-success">Success</button>
-                <button type="button" class="btn btn-outline-success">Success</button>
-              </div>
-              <!-- /.card-header -->
               <div class="card-body">
                 <table id="example1" class="table table-bordered table-striped">
                   <thead>
