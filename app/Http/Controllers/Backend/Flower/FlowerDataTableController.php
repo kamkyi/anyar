@@ -35,8 +35,8 @@ class FlowerDataTableController extends Controller
                 ->editColumn('updated_at',function($flower){
                     return $flower->updated_at->diffForHumans();
                 })
-                ->addColumn('actions', function ($vehicle) {
-                    return view('backend.flower.partials.actions', compact('flowers'))->render();
+                ->addColumn('actions', function ($flower) {
+                    return view('backend.flower.partials.actions', compact('flower'))->render();
                 })
                 ->rawColumns(['actions'])
                 ->make();
