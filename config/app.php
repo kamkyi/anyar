@@ -153,6 +153,7 @@ return [
         //Laravel\Passport\PassportServiceProvider,
         Laravel\Passport\PassportServiceProvider::class,
         Spatie\GoogleTagManager\GoogleTagManagerServiceProvider::class,
+        Yajra\DataTables\DataTablesServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -213,6 +214,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'GoogleTagManager' => Spatie\GoogleTagManager\GoogleTagManagerFacade::class,
+        'DataTables' => Yajra\DataTables\Facades\DataTables::class,
     ],
 
 ];
