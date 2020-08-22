@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Backend\Flower;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Repositories\Backend\Flower\FlowerRepository;
+use Yajra\Datatables\Datatables;
 
 class FlowerDataTableController extends Controller
 {
@@ -25,7 +26,20 @@ class FlowerDataTableController extends Controller
      */
     public function getAll()
     {
-        return $this->flowerRepo->getAllFlowerDatatable();
+        $flowers = $this->flowerRepo->all();
+
+        return   Datatables::of($flowers)
+                ->editColumn('created_at',function($flower){
+                    return $flower->created_at->diffForHumans();
+                })
+                ->editColumn('updated_at',function($flower){
+                    return $flower->updated_at->diffForHumans();
+                })
+                ->addColumn('actions', function ($vehicle) {
+                    return view('backend.flower.partials.actions', compact('flowers'))->render();
+                })
+                ->rawColumns(['actions'])
+                ->make();
     }
 
     /**

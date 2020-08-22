@@ -36,6 +36,7 @@
                     <th>Price</th>
                     <th>Created At</th>
                     <th>Modified At</th>
+                    <th>Actions</th>
                   </tr>
                   </thead>
                   <tbody>
@@ -58,6 +59,8 @@
     <script type="text/javascript">
       $(function() {
       $('#flower-datatable').DataTable({
+              responsive: true,
+              autoWidth : false,
               processing: true,
               serverSide: true,
               ajax: '{!! route('backend.flower.datable.all') !!}',
@@ -67,7 +70,8 @@
                   { data: 'color', name: 'color' },
                   { data: 'price', name: 'price' },
                   { data: 'created_at', name: 'created_at' },
-                  { data: 'updated_at', name: 'updated_at' }
+                  { data: 'updated_at', name: 'updated_at' },
+                  { data: 'actions', name: 'actions'}
               ]
           });
       });
