@@ -77,6 +77,8 @@
 		<script src="shop/js/jquery.flexslider-min.js"></script>
 		<!-- Main -->
 		<script src="shop/js/main.js"></script>
+		{{-- google adsense --}} 
+		<script data-ad-client="ca-pub-5980092772114657" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	</body>
 </html>
 
